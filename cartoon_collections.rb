@@ -17,9 +17,6 @@ end
 
 def find_the_cheese(items)
    cheese_types = ["cheddar", "gouda", "camembert"]
-   #items.map do |item| 
-    #  items.find {|item| item == cheese_types}
-   #end 
      items.find do |item| 
        cheese_types.include?(item)
       
