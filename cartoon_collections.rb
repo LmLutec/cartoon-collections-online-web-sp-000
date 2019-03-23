@@ -23,5 +23,6 @@ def find_the_cheese(items)
      items.find do |item| 
        if item == cheese_types
       end 
+      end 
      
 end
