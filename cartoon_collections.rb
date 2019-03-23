@@ -18,7 +18,7 @@ end
 def find_the_cheese(items)
    cheese_types = ["cheddar", "gouda", "camembert"]
    items.map do |item| 
-      item.find {|item| item == cheese_types}
+      items.find {|item| item == cheese_types}
    end 
      
      
