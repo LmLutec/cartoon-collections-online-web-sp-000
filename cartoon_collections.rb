@@ -21,7 +21,7 @@ def find_the_cheese(items)
     #  items.find {|item| item == cheese_types}
    #end 
      items.find do |item| 
-       if item == cheese_types
+       items.include?(cheese_types)
       end 
       end 
      
